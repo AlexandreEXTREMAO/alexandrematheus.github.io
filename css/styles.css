@@ -9,7 +9,7 @@
 /* Variables */
 
 :root{
-    --main-color: #54B689;
+    --main-color: #2dac70;
     --main-text-color: #fff;
     --border-color: #999;
     --bio-border-color: #293544;
@@ -38,14 +38,14 @@
     border-right: 5px solid var(--bio-border-color);
 }
 
-#about-container{
+#about-container {
     flex: 1 1 80%;
     height: 100vh;
     background-color: var(--about-bg-color);
     padding: 50px;
 }
 
-#bio-img{
+#bio-img {
     width: 175px;
     height: 175px;
     border-radius: 50%;
@@ -181,7 +181,7 @@
     margin-bottom: 25px;
     font-weight: bold;
     padding-left: 10px;
-    border-left: var(--main-color);
+    border-left: 5px solid var(--main-color);
 }
 
 .skills-box i {
